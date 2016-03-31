@@ -1,5 +1,5 @@
 Package.describe({
-  name:"noteon:simple-shcema",  
+  name:"qinghai:simple-shcema",  
   summary: "Migrate from meteor 0.8. A simple schema validation object with reactivity. Used by collection2 and autoform."
 });
 
@@ -19,7 +19,7 @@ Package.on_use(function(api) {
 });
 
 Package.on_test(function(api) {
-  api.use('noteon:simple-schema', ['client', 'server']);
+  api.use('qinghai:simple-schema', ['client', 'server']);
   api.use('test-helpers', ['client', 'server']);
   api.use('tinytest', ['client', 'server']);
   api.add_files(["simple-schema-tests.js", "mongo-object-tests.js"], ['client', 'server']);
