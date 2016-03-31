@@ -1,5 +1,7 @@
 Package.describe({
   name:"qinghai:simple-shcema",  
+  version:"0.2.45",
+  git:"https://github.com/noteon/meteor-simple-schema",
   summary: "Migrate from meteor 0.8. A simple schema validation object with reactivity. Used by collection2 and autoform."
 });
 
