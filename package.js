@@ -1,8 +1,8 @@
 Package.describe({
   name:"qinghai:simple-schema",  
-  version:"0.2.45",
+  version:"0.2.45_1",
   git:"https://github.com/noteon/meteor-simple-schema",
-  summary: "Migrate from meteor 0.8. A simple schema validation object with reactivity. Used by collection2 and autoform."
+  summary: "Migrate from meteor 0.8. A simple schema."
 });
 
 Npm.depends({
@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.on_use(function(api) {
-  api.use(['deps', 'underscore', 'check'], ['client', 'server']);
+  api.use(['deps@1.0.5', 'underscore@1.0.1', 'check@1.0.2'], ['client', 'server']);
   api.add_files('string.js', 'client');
   api.add_files(['mongo-object.js', 'simple-schema.js', 'simple-schema-context.js'], ['client', 'server']);
 
