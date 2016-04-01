@@ -1,6 +1,6 @@
 Package.describe({
   name:"qinghai:simple-schema",  
-  version:"0.2.45_1",
+  version:"0.2.45_2",
   git:"https://github.com/noteon/meteor-simple-schema",
   summary: "Migrate from meteor 0.8. A simple schema."
 });
